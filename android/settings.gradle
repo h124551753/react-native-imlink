@@ -1,0 +1,3 @@
+rootProject.name = 'Imlink'
+
+include ':app', ':reactnativeimlink'
