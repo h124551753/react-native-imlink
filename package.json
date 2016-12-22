@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/h124551753/react-native-imlink/issues"
   },
-  "homepage": "https://github.com/h124551753/react-native-imlink#readme"
+  "homepage": "https://github.com/h124551753/react-native-imlink#readme",
+  "keywords": [
+    "react",
+    "native"
+  ]
 }
