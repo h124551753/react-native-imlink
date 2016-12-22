@@ -33,7 +33,7 @@ public class RCTImlinkModule extends ReactContextBaseJavaModule {
 	public RCTImlinkModule(ReactApplicationContext reactContext) {
 		super(reactContext);
 		_reactContext = reactContext;
-		mWifiAdmin = new EspWifiAdmin(reactContext);
+        mWifiAdmin = new EspWifiAdmin(reactContext);
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class RCTImlinkModule extends ReactContextBaseJavaModule {
 
 	@ReactMethod
 	public void getSsid(Callback callback){
-		String apSsid = mWifiAdmin.getWifiConnectedSsid();
+        String apSsid = mWifiAdmin.getWifiConnectedSsid();
 		callback.invoke(apSsid);
 	}
 
