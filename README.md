@@ -4,7 +4,7 @@ react native imlink wifi for android and ios
 
 ##install
 1. npm install react-native-imlink --save
-2. rnpm link react-native-imlink
+2. react-native link react-native-imlink
 
 ## Usage
 
